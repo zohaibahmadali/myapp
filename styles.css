@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 800px; /* Increased width to accommodate both boxes */
+    text-align: center;
+}
+
+.content {
+    display: flex; /* Use flexbox to arrange items side by side */
+    margin-top: 20px; /* Space between button and content */
+}
+
+.result-box {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 20px; /* Space between result box and map */
+    min-width: 350px; /* Width for result box */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the start */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.result-box strong {
+    color: #007BFF; /* Blue text for labels */
+    display: block; /* Ensure each label is on a new line */
+    margin-bottom: 5px; /* Add some space below each label */
+}
+
+.map {
+    height: 250px; /* Adjust map height to match result box */
+    width: 400px; /* Width for the map */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
